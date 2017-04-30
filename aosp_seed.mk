@@ -15,8 +15,8 @@
 
 $(call inherit-product, device/google/seed/full_seed.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
@@ -33,3 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=seed \
     BUILD_FINGERPRINT=google/seed_l8150/seed:7.1.1/N4F26T/3687331:user/release-keys \
     PRIVATE_BUILD_DESC="seed_l8150-user 7.1.1 N4F26T 3687331 release-keys"
+
+# Build Magisk
+DEFAULT_ROOT_METHOD := magisk
