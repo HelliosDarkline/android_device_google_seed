@@ -16,7 +16,7 @@
 $(call inherit-product, device/google/seed/full_seed.mk)
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/cm/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
