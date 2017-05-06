@@ -1,5 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017 The DU Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +14,7 @@
 
 $(call inherit-product, device/google/seed/full_seed.mk)
 
-# Inherit some common aosp stuff.
+# Inherit some common du stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
