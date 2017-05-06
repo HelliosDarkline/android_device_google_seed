@@ -15,13 +15,13 @@
 
 $(call inherit-product, device/google/seed/full_seed.mk)
 
-# Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common XPe stuff.
+$(call inherit-product, vendor/XPe/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := aosp_seed
+PRODUCT_NAME := xpe_seed
 PRODUCT_DEVICE := seed
 PRODUCT_BRAND := google
 PRODUCT_MODEL := seed
