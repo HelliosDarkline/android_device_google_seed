@@ -59,8 +59,6 @@
     <!-- Default color for notification LED is blue. -->
     <color name="config_defaultNotificationColor">#ff00ffff</color>
 
-    <integer name="config_deviceHardwareKeys">64</integer>
-
     <bool name="config_allowAllRotations">true</bool>
 
     <bool name="config_eap_sim_based_auth_supported">false</bool>
