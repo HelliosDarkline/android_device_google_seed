@@ -1,9 +1,41 @@
 [
+ {
+    "repository" : "helliosdarkline/android_device_google_seed",
+    "target_path": "device/google/seed",
+    "branch"     : "du-7.x"
+ },
+ {
+    "repository" : "helliosdarkline/android_kernel_google_seed",
+    "target_path": "kernel/google/seed",
+    "branch"     : "cm-14.1"
+ },
+ {
+    "repository" : "themuppets/proprietary_vendor_google",
+    "target_path": "vendor_google",
+    "branch"     : "cm-14.1"
+ },
   {
+   "repository" : "DirtyUnicorns/android_external_ant-wireless_ant_service",
+   "target_path": "external/ant-wireless/ant_service",
+   "branch"     : "n7x-caf"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_external_ant-wireless_ant_native",
+   "target_path": "external/ant-wireless/ant_native",
+   "branch"     : "n7x-caf"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_external_ant-wireless_antradio-library",
+   "target_path": "external/ant-wireless/antradio-library",
+   "branch"     : "n7x-caf"
+ },
+  {
+   "repository" : "DirtyUnicorns/android_system_qcom",
+   "target_path": "system/qcom",
+   "branch"     : "n7x-caf"
+ },
+ {
     "repository": "android_device_cyanogen_msm8916-common",
     "target_path": "device/cyanogen/msm8916-common"
-  },{
-    "repository": "android_kernel_google_seed",
-    "target_path": "kernel/google/seed"
-  }
+  },
 ]
