@@ -49,4 +49,9 @@
    "target_path": "hardware/qcom/audio-caf/msm8916",
    "branch"     : "cm-14.1-caf-8916"
  }
+ {
+   "repository" : "LineageOS/android_hardware_qcom_media",
+   "target_path": "hardware/qcom/media-caf/msm8952",
+   "branch"     : "cm-14.1-caf-8952"
+ }
 ]
