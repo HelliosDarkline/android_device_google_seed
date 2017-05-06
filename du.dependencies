@@ -39,4 +39,14 @@
     "target_path": "device/cyanogen/msm8916-common"
     "branch"     : "du-7.x"
   },
+  {
+   "repository" : "LineageOS/android_hardware_qcom_display",
+   "target_path": "hardware/qcom/display-caf/msm8916",
+   "branch"     : "cm-14.1-caf-8916"
+ },
+ {
+   "repository" : "LineageOS/android_hardware_qcom_audio",
+   "target_path": "hardware/qcom/audio-caf/msm8916",
+   "branch"     : "cm-14.1-caf-8916"
+ }
 ]
