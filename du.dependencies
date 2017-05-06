@@ -11,7 +11,7 @@
  },
  {
     "repository" : "themuppets/proprietary_vendor_google",
-    "target_path": "vendor_google",
+    "target_path": "vendor/google",
     "branch"     : "cm-14.1"
  },
   {
@@ -35,7 +35,8 @@
    "branch"     : "n7x-caf"
  },
  {
-    "repository": "android_device_cyanogen_msm8916-common",
+    "repository" : "helliosdarkline/android_device_cyanogen_msm8916-common",
     "target_path": "device/cyanogen/msm8916-common"
+    "branch"     : "du-7.x"
   },
 ]
