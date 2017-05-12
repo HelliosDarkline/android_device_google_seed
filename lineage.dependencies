@@ -1,9 +1,38 @@
 [
   {
-    "repository": "android_device_cyanogen_msm8916-common",
-    "target_path": "device/cyanogen/msm8916-common"
-  },{
-    "repository": "android_kernel_google_seed",
-    "target_path": "kernel/google/seed"
+    "remote"     : "github",
+    "repository" : "helliosdarkline/android_device_google_seed",
+    "target_path": "device/google/seed",
+    "branch"     : "bliss7-caf"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "LineageOS/android_device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch"     : "cm-14.1"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch"     : "cm-14.1"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Lineageos/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch"     : "cm-14.1"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TheMuppets/proprietary_vendor_google",
+    "target_path": "vendor/google",
+    "branch"     : "cm-14.1"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "helliosdarkline/android_kernel_google_seed",
+    "target_path": "kernel/google/seed",
+    "branch"     : "cm-14.1"
   }
 ]
